@@ -40,7 +40,7 @@ class Blockchain {
   }
 
   public getBlocks() {
-    return this.blocks;
+    return [...this.blocks];
   }
 }
 
