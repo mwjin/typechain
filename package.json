@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Very Simple Blockchain Written in Typescript",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node build/index.js"
   },
   "repository": {
     "type": "git",
